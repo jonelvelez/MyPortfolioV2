@@ -1,0 +1,60 @@
+.section-homepage-landing{
+    .home-inner{
+        background-image: url(../img/blur.jpg);
+    }
+    
+    .caption{
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 45%;
+        z-index: 1;
+        color: white;
+      
+    
+        h1{
+            font-size: 3.8rem;
+            font-weight: 700;
+            letter-spacing: .3rem;
+            text-shadow: .1rem .1rem .8rem black;
+            padding-bottom: 1rem;
+        }
+        h6{
+            font-size: 1rem;
+            text-shadow: .1rem .1rem .5rem black;
+            padding-bottom: 1.6rem;
+            text-align: center;
+            color: rgb(194, 182, 182);
+        }
+    
+        svg.svg-inline--fa{
+            font-size: 1.5rem;
+            margin-right: .5rem;
+            text-decoration: none;
+            &:hover{
+                color: $hoverIcon-Color!important;
+            }
+        }
+       
+        a{
+            color: white;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .caption{
+            top: 35%;
+        }
+    }
+
+    @media only screen and (max-width: 414px) {
+        .caption{
+            h1{
+                font-size: 40px;
+            }
+            h6{
+                font-size: 15px;
+            }
+        }
+    }
+    }

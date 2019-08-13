@@ -1,0 +1,351 @@
+.section-experience{
+
+    .background-1{ 
+       background-image: url('../img/workexperience.jpg');
+        width: 100%;
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+       
+    }
+    
+    .background-1-appear{
+        background-image: url('../img/workexperience.jpg');
+        width: 100%;
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    
+    .background-2{ 
+        background-image: url('../img/creativeExperience.jpg');
+         width: 100%;
+        opacity: 0;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    
+    .background-2-appear{ 
+        background-image: url('../img/creativeExperience.jpg');
+         width: 100%; 
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+      
+    }
+    
+    .background-3{ 
+        background-image: url('../img/webExperience1.jpg');
+         width: 100%;
+        opacity: 0;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    
+    .background-3-appear{ 
+        background-image: url('../img/webExperience1.jpg');
+         width: 100%; 
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    
+    .background-4{ 
+        background-image: url('../img/cs6Experience.jpg');
+         width: 100%;
+        opacity: 0;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    
+    .background-4-appear{ 
+        background-image: url('../img/cs6Experience.jpg');
+         width: 100%; 
+        opacity: 1;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        -o-transition: opacity 1s ease-in;
+        -ms-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+      
+    }
+    
+    .fixed-background{
+        background-color: rgba(202, 184, 184, 0.75);
+        color: white; 
+    }
+    
+    img{
+       width: 100%; 
+       max-width: 200px;
+       margin-top: -2rem;
+    }
+    
+    .heading{
+        margin-top: 3rem;
+        font-weight: 900;
+        color: black;
+    }
+    
+    
+    
+    .date{
+        color: black;
+        font-weight: bold;
+    }
+    
+    svg.svg-inline--fa{
+        font-size: 1.5rem;
+        margin-right: .5rem;
+        text-decoration: none;
+        &:hover{
+            color: #1ebba3!important;
+        }
+    }
+    
+    .card-lexmark{
+    
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+      &:hover{
+        box-shadow: $hoverCard-Shadow; 
+      }
+    
+        .lexmarkbtn{
+            &:hover{
+              background: rgb(2,0,36);
+              background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,179,104,1) 0%, rgba(0,212,255,1) 92%);
+              border: 0;
+              color: black;
+            }
+        }  
+    }
+    
+    
+    
+    
+    //Creative Design
+    
+    
+    .card-CreativeContent{
+       
+        width: 20rem; 
+        height: 20rem;
+        
+            &:hover{
+             box-shadow: $hoverCard-Shadow; 
+            }
+       .creativeHeader{
+        letter-spacing: 3px;
+        color: white;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,173,167,1) 0%, rgba(0,212,255,1) 100%);
+       }
+    
+       .creativeBody{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.23853291316526615) 0%, rgba(0,212,255,1) 100%);
+       }
+    
+       .creativeFooter{
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,173,167,1) 0%, rgba(0,212,255,1) 100%);
+       }
+       
+       
+        .creativebtn{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,179,104,1) 0%, rgba(0,212,255,1) 92%);
+            border: 0;
+            color: black;
+            &:hover{
+                color: white;
+                background-color: rgba(white, 0.5);
+            }
+        } 
+    
+        .card-creative{ 
+            left:30%;
+            top:30%;
+            position:absolute;
+            width: 100%;
+            margin-bottom: 25px;
+            z-index: 1;
+            transform: rotate(355deg);
+        }
+    
+      .card-creative2{
+        transform: rotate(350deg);
+        left:30%;
+        top:30%;
+        position:absolute;
+        width: 100%;
+        margin-bottom: 25px;
+        z-index: 1;
+       
+    }
+    
+    
+    .card-creative4{
+        width: 18rem; 
+        position: absolute; 
+        left: 5%; 
+        top: 30%; 
+        transform: rotate(350deg);
+        text-align: center;
+        margin: 0 auto;    
+    }
+    
+    
+    }
+        //End of Creative Design
+    
+    
+        //Web Devlopment Card
+    .card-webdev{
+    
+        background-image: url(../img/webdevpic/webdev1.jpg);
+        width: 18rem;
+        text-align: center;
+        margin: 0 auto;
+      
+          &:hover{
+            box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); 
+          }
+        
+            .color-1{
+                &:hover{
+                    background: rgb(2,0,36);
+                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,173,167,1) 0%, rgba(0,212,255,1) 100%);
+                }
+            }
+        }
+      
+      
+    .card-webdev2{
+        
+    
+          background: rgb(131,58,180);
+          background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(114,234,249,1) 50%, rgba(252,176,69,1) 100%);
+          transform: rotate(350deg);
+          top:7%;
+          left: 17%;
+          position:absolute;
+          width: 18rem;
+          text-align: center;
+          margin: 0 auto;
+
+          
+         
+            &:hover{
+              box-shadow: $hoverCard-Shadow;
+            }
+          
+            .webdevbtn{
+                background: rgb(2,0,36);
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,179,104,1) 0%, rgba(0,212,255,1) 92%);
+                border: 0;
+                color: black;
+                &:hover{
+                    color: white;
+                    background-color: rgba(white, 0.5);
+                }
+            } 
+          }
+      
+      
+    .card-webdev3{
+    
+          background-image: url(../img/webdevpic/webdev3.jpg);
+          z-index:-1; 
+          top:5%; 
+          left: 30%; 
+          width: 18rem; 
+          position: absolute; 
+          transform: rotate(10deg);
+          text-align: center;
+          margin: 0 auto;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            &:hover{
+              box-shadow: $hoverCard-Shadow;  
+            }
+          
+              .color-1{
+                  &:hover{
+                    background: rgb(2,0,36);
+                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,179,104,1) 0%, rgba(0,212,255,1) 92%);
+                    border: 0;
+                    color: black;
+                  }
+              }
+          }
+          @media only screen and (max-width: 1036px){
+            .card-webdev{
+                display: none;
+                // background: rgb(131,58,180);
+                // background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(114,234,249,1) 50%, rgba(252,176,69,1) 100%);
+                // transform: rotate(350deg);
+                // top:7%;
+                // left: 17%;
+                // position: abosolute;
+                // width: 18rem;
+                // text-align: center;
+                // margin: 0 auto;
+            }
+            
+            .card-webdev3{
+                display: none;
+            }
+        
+            .card-webdev2{
+             
+               background-color: red;
+                transform: rotate(360deg);
+                top:7%;
+                left: 0%;
+                position: relative;
+                width: 18rem;
+                text-align: center;
+                margin: 0 auto;
+                
+            }
+        }
+    
+    
+    
+    //And of Web Development
+    
+    
+    //Start of Photoshop Content
+    .card-photoshop{
+       
+        width: 18rem;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    }
+    
+    //End of Photoshop Content

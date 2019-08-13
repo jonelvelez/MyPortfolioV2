@@ -1,0 +1,5 @@
+@mixin creative {
+    -webkit-animation: OpeningSequence 3.2s ease forwards;
+    -moz-animation: OpeningSequence 3.2s ease forwards;
+    animation: OpeningSequence 3.2s ease forwards;
+}

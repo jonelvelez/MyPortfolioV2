@@ -1,0 +1,38 @@
+/*About Me Section*/
+
+.section-about {
+
+    .me{
+      
+    
+        img{
+        width: 100%;
+        border-radius: 50%;
+        }
+    }
+    
+    blockquote .svg-inline--fa{
+        color: $hoverIcon-Color;
+        margin: 1rem;
+    }
+    
+    .card {
+        h5 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: black;
+        }
+    
+        .progress {
+            box-shadow: 9px 7px rgb(230, 223, 223);
+        }
+    
+        .progress-title {
+            text-align: right!important;
+            color: grey;
+            margin: .4rem;
+           
+        }   
+    }
+    
+    }

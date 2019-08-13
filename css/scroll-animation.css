@@ -1,0 +1,32 @@
+/*Scroll Bar reveal animation */
+.scroll-anime-translateY {
+  -moz-transform: translateY(100px);
+  -o-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  opacity: 0; }
+
+.scroll-anime-translateX-left {
+  -moz-transform: translateX(-100px);
+  -o-transform: translateX(-100px);
+  -ms-transform: translateX(-100px);
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
+  opacity: 0; }
+
+.scroll-anime-translateX-right {
+  -moz-transform: translateX(100px);
+  -o-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+  opacity: 0; }
+
+.scroll-anime-scale {
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0; }

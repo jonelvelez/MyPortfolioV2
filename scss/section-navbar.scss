@@ -1,0 +1,20 @@
+/* Navigation */
+
+.section-navbar{
+    .navbar{
+        transform: uppercase;
+        font-weight: 700;
+        font-size: .9rem;
+        border-bottom: 1px solid black;
+        background: rgba(0, 0, 0, 0.6) !important;
+    }
+    
+    .navbar-nav{
+        color: white;
+    
+        li{
+            padding-right: .7rem;
+        }
+    
+    }
+    }
