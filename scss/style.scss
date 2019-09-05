@@ -6,6 +6,10 @@
 @import "scroll-animation";
 @import "section-homepage-landing";
 @import "section-footer";
+@import "section-recentproject";
+@import "section-Qoutes";
+@import "section-MoreAboutMe";
+
 
 //CreativeAlbum
 @import "section-creativeAlbum";
@@ -15,9 +19,9 @@
 
 
 body {
-    overflow-x: hidden;
+    // overflow-x: hidden;
     font-family: 'Lato' , sans-serif;
-    color:  #505962;
+    // // color:  #505962;
 }
 
 // .offset:before{

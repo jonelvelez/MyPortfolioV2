@@ -12,4 +12,31 @@ svg.svg-inline--fa{
 a{
     color: white;
 }
+
+.form-control{
+    border-radius: 0;
+    border: transparent;
+    box-shadow: none;
+    background: #f2f3f7;
+}
+
+.borderRed{
+    border-bottom: solid 2px rgb(236, 95, 95);
+}
+
+.borderGreen{
+    border-bottom: solid 2px rgb(81, 214, 63);
+}
+
+.span1{
+    color: rgb(236, 95, 95);
+    font-size: 10px;
+}
+
+.span2{
+    color: rgb(236, 95, 95);
+    font-size: 10px;
+}
+
+
 }

@@ -1,0 +1,351 @@
+.Section-MoreAboutMe{
+    .btnBack{
+        border-radius: 18px;
+        border-color: darkgrey; 
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        top: 5%;
+        left: 8.5%;
+        &:hover{
+            color: $hoverIcon-Color;
+        }
+    }
+
+.fixed-background{
+        background-image: url(../img/abstract2.jpg); 
+        height: 100%; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+
+        svg.svg-inline--fa{
+            
+            margin-right: .7rem;
+            text-decoration: none;
+            color: grey;
+            right: 10px;   
+            &:hover{
+                color: $hoverIcon-Color!important;
+            }     
+        }
+
+.aboutme{
+    // background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);  
+        margin: auto;
+        padding-top: 6%;
+    .card{
+        overflow-y: scroll;
+        height: 560px; 
+        opacity: 0.9;
+         
+      
+    }
+
+.intro{
+        font-family: 'Quicksand', sans-serif;
+    h1{
+        font-family: 'Lobster', cursive;
+    }
+}
+    
+.aboutme-image{    
+        img{
+            width: 70%;
+            border-radius: 50%;
+            border: solid 2px white;
+            -webkit-box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+            -moz-box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+            box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+        }
+    }
+
+.Expertise{
+    padding-top: 100px;
+    
+    h5{
+        font-family: 'Lobster', cursive;
+        color: grey;
+        padding-bottom: 50px;
+    }
+
+    .box1{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        border-radius: 0% 20% 0% 20%;
+        border-bottom: solid 2px rgba(39,209,209,1);
+    }
+
+    .box2{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        border-radius: 0% 20% 0% 20%;
+        border-bottom: solid 2px rgb(210, 212, 40);
+    }
+
+    .box3{
+        width: 100%;
+        height: 170px;
+        background-color: white;
+        border-radius: 0% 20% 0% 20%;
+        border-bottom: solid 2px rgb(195, 39, 209);
+    }
+
+    h3{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase; 
+    }
+
+    p{
+        font-size: 14px;
+        color: rgb(123, 129, 129);
+        font-weight: lighter;
+       
+    }
+}
+
+.education{
+    h5{
+        font-family: 'Lobster', cursive;
+        color: grey;
+        padding-bottom: 50px;
+    }
+
+    .vl {
+        border-left: 6px solid rgb(219, 224, 224);
+        height: 78%;
+        position: absolute;
+        left: 5%;
+      }
+
+    .rect{   
+        left: 7%;
+        width: 80%;
+        background-color: rgb(219, 224, 224);
+        font-family: 'Quicksand', sans-serif; 
+      }
+
+      h4{
+        color: rgb(102, 146, 146);
+      }
+}
+
+.training{
+   padding-top: 100px;
+   h5{
+    font-family: 'Lobster', cursive;
+    color: grey;
+    padding-bottom: 50px;  
+   }
+
+   .tesda{
+        h4{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase; 
+        }
+
+        p{
+            color:grey;
+        }
+
+         img{
+            cursor: zoom-in;
+            border: solid 2px rgb(219, 224, 224);
+            width: 70%;
+            transform:          rotate(90deg);
+            -ms-transform:      rotate(90deg);
+            -moz-transform:     rotate(90deg);
+            -webkit-transform:  rotate(90deg);
+            -o-transform:       rotate(90deg);
+         }
+         
+        
+}
+
+    .nc2{
+        img{
+        padding-top: 10%;
+        cursor: zoom-in;
+        width: 50%;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase; 
+        }
+
+        p{
+            color:grey;
+        }
+    }
+}
+
+.Contact{
+    p{
+      color: grey;  
+    }
+
+    h5{
+        font-family: 'Lobster', cursive;
+        color: grey;
+        padding-bottom: 10px;
+    }
+
+    h6{
+        font-family: 'Quicksand', sans-serif; 
+        color: grey;
+    }
+
+    .ContactContent{
+        padding-left: 120px;
+     
+    }
+
+    .borderRed{
+        border-bottom: solid 2px rgb(236, 95, 95);
+    }
+
+    .borderGreen{
+        border-bottom: solid 2px rgb(81, 214, 63);
+    }
+
+    .span1{
+        color: rgb(236, 95, 95);
+        font-size: 10px;
+    }
+
+    .span2{
+        color: rgb(236, 95, 95);
+        font-size: 10px;
+    }
+
+    .btn{
+        // background-color: rgb(67, 192, 192);
+        border-radius: 0%;
+        width: 150px;
+    }
+
+   
+}
+
+
+
+
+    @media only screen and (max-width: 1024px){      
+          .card{
+                overflow-y: scroll;
+                height: 1500px;  
+          }
+
+          .aboutme-image{    
+            img{
+                width: 100%;
+                border-radius: 50%;
+                border: solid 2px white;
+                -webkit-box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+                -moz-box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+                box-shadow: 8px 10px 2px 3px rgba(39,209,209,1);
+            }
+        }
+
+        .Expertise{
+            padding: 0rem !important;  
+            h5{
+                text-align: center;
+            } 
+        } 
+          
+        .box1{
+            margin: 0 !important;
+            width: 100%;
+            height: 170px;
+            background-color: white;
+            border-radius: 0% 20% 0% 20%;
+            border-bottom: solid 2px rgba(39,209,209,1);
+            h3{
+                font-size: 15px;
+            }
+        }
+
+        .box2{
+            margin: 0 !important;
+            width: 100%;
+            height: 170px;
+            background-color: white;
+            border-radius: 0% 20% 0% 20%;
+            border-bottom: solid 2px rgba(39,209,209,1);
+        }
+
+        .box3{
+            margin: 0 !important;
+            width: 100%;
+            height: 170px;
+            background-color: white;
+            border-radius: 0% 20% 0% 20%;
+            border-bottom: solid 2px rgba(39,209,209,1);
+        } 
+        
+        .education{
+            
+            h5{
+                text-align: center;
+            } 
+
+            .rect{  
+            
+                left: 7%;
+                width: 80%;
+                background-color: rgb(219, 224, 224);
+                font-family: 'Quicksand', sans-serif; 
+    
+                h4{
+                    font-size: 13px;
+                }
+    
+                p{
+                    font-size: 10px;
+                }
+              }
+        } 
+
+       
+
+          .training{
+            padding: 0 !important;
+
+            h5{
+                text-align: center;
+            } 
+
+            .tesda{
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+        } 
+
+        .Contact{
+            h5{
+                text-align: center;
+            }
+
+            .ContactContent{
+                padding-left: 0px;
+             
+            }
+        }
+
+        .btnBack{
+            display: none;
+        }
+    }
+ 
+}
+
+
+}
+
+}

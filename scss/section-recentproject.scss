@@ -1,0 +1,50 @@
+/* section-recentproject */
+
+.section-recentproject{
+ 
+
+    .recentproject-background{
+        background: #ADA996;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+
+    .card{
+        width: 20rem;
+        // filter: grayscale(100%);
+        // &:hover{
+        //     filter: grayscale(0%); 
+        // }
+    
+    }
+    
+
+    p{
+        color: grey;
+        font-size: 10px;
+        font-family: 'Philosopher', sans-serif;;
+        
+    }
+
+    @media only screen and (max-width: 414px){
+        .card{            
+            filter: grayscale(0%);
+            
+        }
+    }
+
+    @media only screen and (width: 768px) {     
+        .card{   
+            width: 14rem;
+            filter: grayscale(0%);
+        }
+    }
+
+    @media only screen and (width: 1024px) {     
+        .card{   
+            width: 18rem;
+            filter: grayscale(0%);
+        }
+    }
+}

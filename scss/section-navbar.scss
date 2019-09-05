@@ -5,16 +5,38 @@
         transform: uppercase;
         font-weight: 700;
         font-size: .9rem;
-        border-bottom: 1px solid black;
-        background: rgba(0, 0, 0, 0.6) !important;
+        // border-bottom: 1px solid black;
+        // background: rgba(10, 0, 0, 0.6);
+       
     }
     
     .navbar-nav{
+       
         color: white;
+        box-shadow: 2px 2px;
     
         li{
             padding-right: .7rem;
+          
         }
-    
+    }
+
+    a{  
+        
+        color: white;
+
+        &:after{
+        content:'';
+        display:block;
+        width: 0px;
+        height: 2px;
+        background: $YellowBrown;
+        transition: 0.2s;
+      }
+        &:hover:after
+        {
+            width: 100%;
+         
+        }
     }
     }

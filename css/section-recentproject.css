@@ -1,0 +1,11 @@
+/* section-recentproject */
+.section-recentproject .recentproject-background {
+  background: #800080;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc0cb, #800080);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#ffc0cb), to(#800080));
+  background: -webkit-linear-gradient(left, #ffc0cb, #800080);
+  background: -o-linear-gradient(left, #ffc0cb, #800080);
+  background: linear-gradient(to right, #ffc0cb, #800080);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }

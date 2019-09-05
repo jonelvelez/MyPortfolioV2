@@ -1,0 +1,32 @@
+/* section-Qouters */
+
+.section-Qoutes{
+
+   
+
+    .fixed-background{
+    background-image: url(../img/qoutesbg.jpg); margin-bottom: 0px;
+     /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+
+    }
+
+    .overlay{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 23%, rgba(7,51,93,0.6446953781512605) 60%);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    }
+
+    .text{
+        opacity: 0;
+    }
+
+    
+}
