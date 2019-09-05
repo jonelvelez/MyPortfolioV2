@@ -1016,7 +1016,7 @@
       .Section-MoreAboutMe .fixed-background .aboutme .intro h1 {
         font-family: 'Lobster', cursive; }
     .Section-MoreAboutMe .fixed-background .aboutme .aboutme-image img {
-      width: 70%;
+      width: 100%;
       border-radius: 50%;
       border: solid 2px white;
       -webkit-box-shadow: 8px 10px 2px 3px #27d1d1;
